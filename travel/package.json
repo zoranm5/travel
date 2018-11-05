@@ -1,0 +1,28 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.json"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "backend"
+  ],
+  "author": "Zoran",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.9",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.5"
+  },
+  "devDependencies": {}
+}
